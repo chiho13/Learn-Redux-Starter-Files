@@ -4,8 +4,10 @@ import { Link } from 'react-router'
 export default class Single extends React.Component {
     render() {
         return (
-            <div>
-               Single
+            <div className="photo-grid">
+               <div className="grid-figure">
+                    Single
+               </div>
             </div>
         )
     }
